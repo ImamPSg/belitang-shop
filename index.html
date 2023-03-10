@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Belitang Shop</title>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- feather icon -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Navbar start -->
+    
+    <nav class="navbar">
+      <a href="#" class="navbar-logo">Belitang <span>Shop</span>.</a>
+      <div class="navbar-nav">
+        <a href="#">Home</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Kontak Kami</a>
+      </div>
+      <div class="navbar-extra">
+        <a href="#" id="search"><i data-feather="search"></i></a>
+        <a href="#" id="shopping"><i data-feather="shopping-cart"></i></a>
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+    </nav>
+    <!-- end navbar -->
+
+    <!-- hero section start -->
+
+    <section class="hero" id="home">
+      <main class="content">
+        <h1>Mari nikmati secangkir <span>kopi</span></h1>
+        <p>
+          Secangkir kopi dapat membuat kita belajar, bahwa rasa pahit juga dapat dinikmati.
+        </p>
+        <a href="#" class="cta">Beli sekarang</a>
+      </main>
+    </section>
+
+    <!-- hero section end -->
+
+    <!-- about section start -->
+    <section id="about" class="about">
+      <h2><span>Tentang</span> Kami</h2>
+      <div class="row">
+        <div class="about-img">
+        <img src="img/coffee2.jpg" alt="Tentang Kami" />
+      </div>
+
+      <div class="content">
+        <h3>Kenapa memilih kopi Kami?</h3>
+        <p>
+          Jadikan kopi sebagai teman baikmu disaat masalah dirasa sudah melampaui batas, pilih jenis kopi kesukaanmu dan beli sekarang juga. ayo buruan jangan sampai kelewatan promonya!
+        </p>
+      </div>
+    </section>
+    <!-- about section end -->
+
+    <!-- menu section start -->
+
+    <section id="menu" class="menu">
+      <h2><span>Menu</span> Kami</h2>
+      <p>Gula aren mengandung lebih sedikit glukosa dan indeks glikemik lebih rendah daripada gula dapur atau madu. Gula aren diketahui dapat membantu menstabilkan kadar gula darah yang lebih baik daripada pemanis lainnya, sehingga tingkat energi nggak melonjak dan turun, serta dapat mengurangi ketegangan pada jantung Anda.</p>
+      <div class="row">
+        <div class="menu-card">
+          <img src="img/menu/1.png" alt="Espresso" class="menu-card-img">
+          <h3 class="menu-card-title">- Kopi susu gula aren -</h3>
+          <p class="menu-card-price">IDR 15K</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/1.png" alt="Espresso" class="menu-card-img">
+          <h3 class="menu-card-title">- Kopi susu gula aren -</h3>
+          <p class="menu-card-price">IDR 15K</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/1.png" alt="Espresso" class="menu-card-img">
+          <h3 class="menu-card-title">- Kopi susu gula aren -</h3>
+          <p class="menu-card-price">IDR 15K</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/1.png" alt="Espresso" class="menu-card-img">
+          <h3 class="menu-card-title">- Kopi susu gula aren -</h3>
+          <p class="menu-card-price">IDR 15K</p>
+        </div>
+      </div>
+    </section>
+    <!-- menu section end -->
+
+  <!-- contact section start -->
+
+    <section id="contact" class="contact">
+      <h2><span>Kontak</span> Kami</h2>
+      <p>No Whatsapp : 082268198720</p>
+      <div class="row">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31836.252640454695!2d104.18944484635993!3d-4.115222408495687!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e39a8badca4daf7%3A0x3602de2d59867875!2sAir%20Paoh%2C%20Kec.%20Baturaja%20Timur%2C%20Kabupaten%20Ogan%20Komering%20Ulu%2C%20Sumatera%20Selatan!5e0!3m2!1sid!2sid!4v1678300863061!5m2!1sid!2sid" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
+          <form name="belitang-shop">
+             <h7 class="heade-contact">Get In Touch</h7>
+            <div class="input-group">
+              <i data-feather="user"></i>
+              <input type="text" id="names" placeholder="Nama Lengkap" name="nama">
+            </div>
+            <div class="input-group">
+              <i data-feather="phone"></i>
+              <input type="text" id="hp" placeholder="No Hp" name="nohp">
+            </div>
+            <div class="input-group">
+              <i data-feather="message-square"></i>
+              <input type="text" id="msg" placeholder="Pesan"  name="pesan">
+            </div>
+            <button type="submit" class="btn" onclick="message()">Kirim pesan</button>
+            <div class="message">
+              <div class="success" id="success">Pesan anda sudah terkirim!!</div>
+              <div class="danger" id="danger">Nama,NoHp dan pesan silahkan diisi!!</div>
+            </div>
+          </form>
+      </div>
+    </section>
+
+  <!-- contact section end -->
+
+  <!-- section footer start -->
+  <footer>
+    <div class="socials">
+      <a href="#"><i data-feather="instagram"></i></a>
+      <a href="#"><i data-feather="twitter"></i></a>
+      <a href="#"><i data-feather="facebook"></i></a>
+      <a href="#"><i class="whatsapp"></i></a>
+    </div>
+    <div class="links">
+      <a href="#home">Home</a>
+      <a href="#about">Obout</a>
+      <a href="#menu">Menu</a>
+      <a href="#contact">Kontak</a>
+    </div>
+    <div class="credit">
+      <p>Created by <a href="">belitangshop</a>. | &copy; 2023.</p>
+    </div>
+  </footer>
+  <!-- ssection footer end -->
+    <script>
+      feather.replace();
+    </script>
+    <!-- java script -->
+    <script src="js/script.js"></script>
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbz4ujlZ88cLeVpx2T91Jss83Vu5nfZ6poM-A1I643ID_98NRFIIjHXOHBd02O4XWzuMtA/exec'
+      const form = document.forms['belitang-shop']
+
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => console.log('Success!', response))
+          .catch(error => console.error('Error!', error.message))
+      })
+    </script>
+  </body>
+</html>
