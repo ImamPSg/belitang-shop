@@ -39,7 +39,7 @@
 
     <section class="hero" id="home">
       <main class="content">
-        <h1>Mari nikmati secangkir <span>kopi</span></h1>
+        <h1>Mari nikmati <span class="auto-input"></span></h1>
         <p>
           Secangkir kopi dapat membuat kita belajar, bahwa rasa pahit juga dapat dinikmati.
         </p>
@@ -54,7 +54,7 @@
       <h2><span>Tentang</span> Kami</h2>
       <div class="row">
         <div class="about-img">
-        <img src="img/coffee2.jpg" alt="Tentang Kami" />
+        <img src="img/coffee.jpg" alt="Tentang Kami" />
       </div>
 
       <div class="content">
@@ -73,7 +73,29 @@
       <p>Gula aren mengandung lebih sedikit glukosa dan indeks glikemik lebih rendah daripada gula dapur atau madu. Gula aren diketahui dapat membantu menstabilkan kadar gula darah yang lebih baik daripada pemanis lainnya, sehingga tingkat energi nggak melonjak dan turun, serta dapat mengurangi ketegangan pada jantung Anda.</p>
       <div class="row">
         <div class="menu-card">
-          <img src="img/menu/1.png" alt="Espresso" class="menu-card-img">
+          <img src="img/menu/kopigulaaren.png" alt="Espresso" class="menu-card-img">
+          <h3 class="menu-card-title">- Kopi susu gula aren -</h3>
+          <p class="menu-card-price">IDR 15K</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/susu1.png" alt="Espresso" class="menu-card-img">
+          <h3 class="menu-card-title">- susu -</h3>
+          <p class="menu-card-price">IDR 15K</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/piscok1.png" alt="Espresso" class="menu-card-img">
+          <h3 class="menu-card-title">- piscok -</h3>
+          <p class="menu-card-price">IDR 15K</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/2.png" alt="Espresso" class="menu-card-img">
+          <h3 class="menu-card-title">- Kentang -</h3>
+          <p class="menu-card-price">IDR 15K</p>
+        </div>
+
+        <!-- test -->
+                <div class="menu-card">
+          <img src="img/menu/kopigulaaren.png" alt="Espresso" class="menu-card-img">
           <h3 class="menu-card-title">- Kopi susu gula aren -</h3>
           <p class="menu-card-price">IDR 15K</p>
         </div>
@@ -134,7 +156,6 @@
       <a href="#"><i data-feather="instagram"></i></a>
       <a href="#"><i data-feather="twitter"></i></a>
       <a href="#"><i data-feather="facebook"></i></a>
-      <a href="#"><i class="whatsapp"></i></a>
     </div>
     <div class="links">
       <a href="#home">Home</a>
@@ -161,6 +182,16 @@
         fetch(scriptURL, { method: 'POST', body: new FormData(form)})
           .then(response => console.log('Success!', response))
           .catch(error => console.error('Error!', error.message))
+      })
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+        <script>
+            var typed = new Typed(".auto-input",{
+          strings:["secangkir kopi"],
+          typeSpeed:100,
+          backSpeed:100,
+          loop:true
+
       })
     </script>
   </body>
