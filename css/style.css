@@ -236,7 +236,7 @@ body {
 }
 
 .menu .row .menu-card img {
-  border-radius: 50%;
+  border-radius: 0.9%;
   width: 80%;
 }
 
