@@ -38,7 +38,8 @@ body {
   max-height: 100%;
 }
 
-.navbar .navbar-logo {
+.navbar .navbar-logo,
+.marquee {
   flex: 7;
   font-size: 2rem;
   font-weight: 700;
@@ -324,6 +325,27 @@ body {
   position: absolute;
   animation: buttons 0.3s linear;
   display: none;
+}
+
+.marquee {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.marquee p {
+  padding-left: 100%;
+  padding-top: 4rem;
+  animation: marquee 15s linear infinite;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-100%, 0);
+  }
 }
 
 @keyframes buttons {
