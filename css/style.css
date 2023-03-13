@@ -32,11 +32,19 @@ body {
   z-index: 9999;
 }
 
+.navbar .navbar-logo-coffee {
+  flex: 1;
+  max-width: 100%;
+  max-height: 100%;
+}
+
 .navbar .navbar-logo {
+  flex: 7;
   font-size: 2rem;
   font-weight: 700;
   color: #fff;
   font-style: italic;
+  border-left-style: 0.5rem;
 }
 
 .navbar .navbar-logo span {
@@ -44,6 +52,7 @@ body {
 }
 
 .navbar .navbar-nav a {
+  flex: 1;
   color: #fff;
   display: inline-block;
   font-size: 1.3rem;
@@ -380,6 +389,9 @@ footer .links a {
   }
   #hamburger-menu {
     display: inline-block;
+  }
+  .navbar .navbar-logo-coffee {
+    flex: 2;
   }
   .navbar .navbar-nav {
     position: absolute;
