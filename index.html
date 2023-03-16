@@ -13,6 +13,8 @@
       rel="stylesheet"
     />
     <!-- feather icon -->
+    <script src="https://unpkg.com/boxicons@2.1.3/dist/boxicons.js"></script>
+    <link rel="stylesheet" href="boxicons.min.css" />
     <script src="https://unpkg.com/feather-icons"></script>
     <link rel="stylesheet" href="css/style.css" />
   </head>
@@ -172,7 +174,7 @@
 
     <section id="contact" class="contact">
       <h2><span>Kontak</span> Kami</h2>
-      <p>No Whatsapp : 082268198720</p>
+      <p>No Whatsapp : 082268xxxxxx</p>
       <div class="row">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31836.252640454695!2d104.18944484635993!3d-4.115222408495687!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e39a8badca4daf7%3A0x3602de2d59867875!2sAir%20Paoh%2C%20Kec.%20Baturaja%20Timur%2C%20Kabupaten%20Ogan%20Komering%20Ulu%2C%20Sumatera%20Selatan!5e0!3m2!1sid!2sid!4v1678300863061!5m2!1sid!2sid"
@@ -182,7 +184,7 @@
           class="map"
         ></iframe>
         <form name="belitang-shop">
-          <h7 class="heade-contact">Get In Touch</h7>
+          <h7 class="heade-contact">Pesan <span>Di Tempat</span></h7>
           <div class="input-group">
             <i data-feather="user"></i>
             <input
@@ -196,6 +198,17 @@
             <i data-feather="phone"></i>
             <input type="text" id="hp" placeholder="No Hp" name="nohp" />
           </div>
+
+          <div class="input-group">
+            <i data-feather="bell"></i>
+            <input
+              type="text"
+              id="nomeja"
+              placeholder="No Meja"
+              name="nomeja"
+            />
+          </div>
+
           <div class="input-group">
             <i data-feather="message-square"></i>
             <input type="text" id="msg" placeholder="Pesan" name="pesan" />
@@ -203,6 +216,7 @@
           <button type="submit" class="btn" onclick="message()">
             Kirim pesan
           </button>
+
           <div class="message">
             <div class="success" id="success">Pesan anda sudah terkirim!!</div>
             <div class="danger" id="danger">
@@ -224,6 +238,8 @@
         <a href="#"><i data-feather="instagram"></i></a>
         <a href="#"><i data-feather="twitter"></i></a>
         <a href="#"><i data-feather="facebook"></i></a>
+        <a href="#"><i data-feather="youtube"></i></a>
+        <!-- <box-icon type="solid" name="rocket"></box-icon> -->
       </div>
       <div class="links">
         <a href="#home">Home</a>
