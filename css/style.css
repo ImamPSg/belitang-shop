@@ -349,10 +349,10 @@ body {
 }
 
 .heade-contact {
-  animation: blink 1s linear infinite;
+  animation: heade-contact 0.5s linear infinite;
 }
 
-@keyframes blink {
+@keyframes heade-contact {
   0% {
     opacity: 1;
   }
