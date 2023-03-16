@@ -18,16 +18,23 @@ document.addEventListener("click", function (e) {
 function message() {
   var Name = document.getElementById("names");
   var hp = document.getElementById("hp");
+  var nomeja = document.getElementById("nomeja");
   var msg = document.getElementById("msg");
   const success = document.getElementById("success");
   const danger = document.getElementById("danger");
 
-  if (Name.value === "" || hp.value === "" || msg.value === "") {
+  if (
+    Name.value === "" ||
+    hp.value === "" ||
+    nomeja.value === "" ||
+    msg.value === ""
+  ) {
     danger.style.display = "block";
   } else {
     setTimeout(() => {
       Name.value = "";
       hp.value = "";
+      nomeja.value = "";
       msg.value = "";
     }, 2000);
 
