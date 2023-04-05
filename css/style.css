@@ -338,7 +338,19 @@ body {
   padding-top: 4rem;
   animation: marquee 15s linear infinite;
 }
+footer .foot-right-logo-coffee {
+  width: 0.5rem;
+  height: 0.5rem;
+  float: right;
+  margin-right: 150px;
+}
 
+footer .foot-logo-coffee {
+  width: 10px;
+  height: 6px;
+  float: left;
+  margin-left: 10px;
+}
 @keyframes marquee {
   0% {
     transform: translate(0, 0);
