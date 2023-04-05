@@ -40,9 +40,9 @@ body {
 
 .navbar .navbar-logo,
 .marquee {
-  flex: 7;
+  flex: 5;
   font-size: 2rem;
-  font-weight: 700;
+  font-weight: 500;
   color: #fff;
   font-style: italic;
   border-left-style: 0.5rem;
@@ -335,8 +335,11 @@ body {
 
 .marquee p {
   padding-left: 100%;
-  padding-top: 4rem;
-  animation: marquee 15s linear infinite;
+  padding: 0;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 20px;
+  animation: marquee 10s linear infinite;
 }
 
 @keyframes marquee {
@@ -409,7 +412,19 @@ footer .links a {
   padding: 0.7 1rem;
   margin: 1rem;
 }
+footer .foot-right-logo-coffee {
+  width: 0.5rem;
+  height: 0.5rem;
+  float: right;
+  margin-right: 150px;
+}
 
+footer .foot-logo-coffee {
+  width: 10px;
+  height: 6px;
+  float: left;
+  margin-left: 10px;
+}
 /* footer end */
 /* media queries ==> style responsive manual*/
 
